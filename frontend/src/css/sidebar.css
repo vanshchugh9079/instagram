@@ -1,0 +1,29 @@
+.sidebar {
+    width: 20%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .sidebar h2 {
+    font-family: 'Instagram';
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar li:hover {
+    color: #888;
+  }
